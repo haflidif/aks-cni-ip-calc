@@ -1,10 +1,7 @@
 # aks-cni-ip-calc
 Calculate the number of IP addresses required for an Azure Kubernetes Service (AKS) cluster.
 
-## Get-AKSIp.ps1
-
 ## Description
-
 `Get-AksIP.ps1`, is designed to calculate the number of IP addresses required for an Azure Kubernetes Service (AKS) cluster with the Azure CNI network plugin. The script takes into account the number of nodes, the number of pods per node, the number of replicas for each pod, and the number of internal load balancers in the cluster. It returns the total number of IP addresses required and the CIDR notation for the AKS cluster. The script can also return the result in JSON format if the `-json` switch is used.
 
 ## Parameters
